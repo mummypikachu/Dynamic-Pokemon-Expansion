@@ -10796,6 +10796,18 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
+	[NATIONAL_DEX_GREAT_TUSK] =
+	{
+		.categoryName = {_A, _n, _c, _i, _e, _n, _t, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 22,
+		.weight = 3200,
+		.description = DEX_ENTRY_GREAT_TUSK,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
 };
 
 //Certain Pokemon forms can have alternate dex entries when viewed

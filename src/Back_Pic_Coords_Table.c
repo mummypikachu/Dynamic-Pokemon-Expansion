@@ -6188,7 +6188,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x5,
 	},
-	[SPECIES_BUTTERFREE_GIGA] =
+	[SPECIES_BUTTERFREE_MEGA] =
 	{
 		.size = 0x0,
 		.y_offset = 0x3,
@@ -6342,5 +6342,10 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	{
 		.size = 0x0,
 		.y_offset = 0x4,
+	},
+	[SPECIES_GREAT_TUSK] =
+	{
+		.size = 0x0,
+		.y_offset = 0x11,
 	},
 };

@@ -3713,7 +3713,7 @@ Charizard
 #org @NAME_BLASTOISE_GIGA
 Blastoise
 
-#org @NAME_BUTTERFREE_GIGA
+#org @NAME_BUTTERFREE_MEGA
 Butterfree
 
 #org @NAME_PIKACHU_GIGA
@@ -3805,3 +3805,6 @@ Urshifu
 
 #org @NAME_URSHIFU_RAPID_GIGA
 Urshifu
+
+#org @NAME_GREAT_TUSK
+Great Tusk

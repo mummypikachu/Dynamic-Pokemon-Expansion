@@ -1243,7 +1243,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[NUM_SPECIES] =
 	[SPECIES_VENUSAUR_GIGA] =        {gBackShinySpriteGigaVenusaurPal, SPECIES_VENUSAUR_GIGA + NUM_SPECIES, 0x0},
 	[SPECIES_CHARIZARD_GIGA] =       {gBackShinySpriteGigaCharizardPal, SPECIES_CHARIZARD_GIGA + NUM_SPECIES, 0x0},
 	[SPECIES_BLASTOISE_GIGA] =       {gBackShinySpriteGigaBlastoisePal, SPECIES_BLASTOISE_GIGA + NUM_SPECIES, 0x0},
-	[SPECIES_BUTTERFREE_GIGA] =      {gBackShinySpriteGigaButterfreePal, SPECIES_BUTTERFREE_GIGA + NUM_SPECIES, 0x0},
+	[SPECIES_BUTTERFREE_MEGA] =      {gBackShinySpriteButterfreeMegaPal, SPECIES_BUTTERFREE_MEGA + NUM_SPECIES, 0x0},
 	[SPECIES_PIKACHU_GIGA] =         {gBackShinySpriteGigaPikachuPal, SPECIES_PIKACHU_GIGA + NUM_SPECIES, 0x0},
 	[SPECIES_MEOWTH_GIGA] =          {gBackShinySpriteGigaMeowthPal, SPECIES_MEOWTH_GIGA + NUM_SPECIES, 0x0},
 	[SPECIES_MACHAMP_GIGA] =         {gBackShinySpriteGigaMachampPal, SPECIES_MACHAMP_GIGA + NUM_SPECIES, 0x0},
@@ -1274,4 +1274,5 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[NUM_SPECIES] =
 	[SPECIES_DURALUDON_GIGA] =       {gBackShinySpriteGigaDuraludonPal, SPECIES_DURALUDON_GIGA + NUM_SPECIES, 0x0},
 	[SPECIES_URSHIFU_SINGLE_GIGA] =  {gBackShinySpriteGigaUrshifuSinglePal, SPECIES_URSHIFU_SINGLE_GIGA + NUM_SPECIES, 0x0},
 	[SPECIES_URSHIFU_RAPID_GIGA] =   {gBackShinySpriteGigaUrshifuRapidPal, SPECIES_URSHIFU_RAPID_GIGA + NUM_SPECIES, 0x0},
+	[SPECIES_GREAT_TUSK] =           {gBackShinySpriteGreatTuskPal, SPECIES_GREAT_TUSK + NUM_SPECIES, 0x0},
 };

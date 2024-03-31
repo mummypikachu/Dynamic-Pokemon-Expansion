@@ -645,6 +645,7 @@
 #define ITEM_GALLADITE 0x1EA
 #define ITEM_AUDINITE 0x1EB
 #define ITEM_DIANCITE 0x1EC
+#define ITEM_BUTTERFRITE 0x2D4
 
 //Type-Resist + New Berries
 #define ITEM_OCCA_BERRY 0x21B
@@ -845,8 +846,9 @@ enum
 #define ITEM_THROAT_SPRAY 0x2C5
 #define ITEM_RUSTED_SWORD 0x2C6
 #define ITEM_RUSTED_SHIELD 0x2C7
+#define ITEM_STRIKER_VEST 0x2D3
 
-#define ITEMS_COUNT (ITEM_STAR_SWEET + 1)
+#define ITEMS_COUNT (ITEM_BUTTERFRITE + 1)
 
 //For Pokemon Unbound
 #ifdef UNBOUND

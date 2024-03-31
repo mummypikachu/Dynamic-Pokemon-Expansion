@@ -14538,7 +14538,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BUTTERFREE_GIGA] =
+	[SPECIES_BUTTERFREE_MEGA] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -14905,6 +14905,18 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = gCryUrshifuRapid,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_GREAT_TUSK] =
+	{
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = (u8*) 0x85ff650,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,

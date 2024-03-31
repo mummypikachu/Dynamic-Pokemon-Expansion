@@ -19151,7 +19151,26 @@ static const struct LevelUpMove sStunfiskGLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(50, MOVE_FLAIL),
 	LEVEL_UP_MOVE(55, MOVE_FISSURE),
 	LEVEL_UP_END
-};		
+};
+
+static const struct LevelUpMove sGreatTuskLevelUpLearnset[] = {
+	LEVEL_UP_MOVE( 1, MOVE_DEFENSECURL),
+	LEVEL_UP_MOVE( 1, MOVE_HORNATTACK),
+	LEVEL_UP_MOVE( 1, MOVE_ROLLOUT),
+	LEVEL_UP_MOVE( 1, MOVE_SUNNYDAY),
+	LEVEL_UP_MOVE( 7, MOVE_BULLDOZE),
+	LEVEL_UP_MOVE(14, MOVE_TAUNT),
+	LEVEL_UP_MOVE(21, MOVE_RAPIDSPIN),
+	LEVEL_UP_MOVE(28, MOVE_BRICKBREAK),
+	LEVEL_UP_MOVE(35, MOVE_STOMPINGTANTRUM),
+	LEVEL_UP_MOVE(42, MOVE_KNOCKOFF),
+	LEVEL_UP_MOVE(49, MOVE_EARTHQUAKE),
+	LEVEL_UP_MOVE(56, MOVE_GIGAIMPACT),
+	LEVEL_UP_MOVE(63, MOVE_CLOSECOMBAT),
+	LEVEL_UP_MOVE(70, MOVE_MEGAHORN),
+	LEVEL_UP_MOVE(77, MOVE_HEADSMASH),
+	LEVEL_UP_END
+};	
 
 const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 {
@@ -20392,7 +20411,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_VENUSAUR_GIGA] = sVenusaurLevelUpLearnset,
 	[SPECIES_CHARIZARD_GIGA] = sCharizardLevelUpLearnset,
 	[SPECIES_BLASTOISE_GIGA] = sBlastoiseLevelUpLearnset,
-	[SPECIES_BUTTERFREE_GIGA] = sButterfreeLevelUpLearnset,
+	[SPECIES_BUTTERFREE_MEGA] = sButterfreeLevelUpLearnset,
 	[SPECIES_PIKACHU_GIGA] = sPikachuLevelUpLearnset,
 	[SPECIES_MEOWTH_GIGA] = sMeowthLevelUpLearnset,
 	[SPECIES_MACHAMP_GIGA] = sMachampLevelUpLearnset,
@@ -20423,5 +20442,6 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_DURALUDON_GIGA] = sDuraludonLevelUpLearnset,
 	[SPECIES_URSHIFU_SINGLE_GIGA] = sUrshifuLevelUpLearnset,
 	[SPECIES_URSHIFU_RAPID_GIGA] = sUrshifuRapidLevelUpLearnset,
+	[SPECIES_GREAT_TUSK] = sGreatTuskLevelUpLearnset,
 };
 #endif

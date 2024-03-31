@@ -1243,7 +1243,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES] =
 	[SPECIES_VENUSAUR_GIGA] =        {gFrontSpriteGigaVenusaurTiles, (64 * 64) / 2, SPECIES_VENUSAUR_GIGA},
 	[SPECIES_CHARIZARD_GIGA] =       {gFrontSpriteGigaCharizardTiles, (64 * 64) / 2, SPECIES_CHARIZARD_GIGA},
 	[SPECIES_BLASTOISE_GIGA] =       {gFrontSpriteGigaBlastoiseTiles, (64 * 64) / 2, SPECIES_BLASTOISE_GIGA},
-	[SPECIES_BUTTERFREE_GIGA] =      {gFrontSpriteGigaButterfreeTiles, (64 * 64) / 2, SPECIES_BUTTERFREE_GIGA},
+	[SPECIES_BUTTERFREE_MEGA] =      {gFrontSpriteButterfreeMegaTiles, (64 * 64) / 2, SPECIES_BUTTERFREE_MEGA},
 	[SPECIES_PIKACHU_GIGA] =         {gFrontSpriteGigaPikachuTiles, (64 * 64) / 2, SPECIES_PIKACHU_GIGA},
 	[SPECIES_MEOWTH_GIGA] =          {gFrontSpriteGigaMeowthTiles, (64 * 64) / 2, SPECIES_MEOWTH_GIGA},
 	[SPECIES_MACHAMP_GIGA] =         {gFrontSpriteGigaMachampTiles, (64 * 64) / 2, SPECIES_MACHAMP_GIGA},
@@ -1274,4 +1274,5 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES] =
 	[SPECIES_DURALUDON_GIGA] =       {gFrontSpriteGigaDuraludonTiles, (64 * 64) / 2, SPECIES_DURALUDON_GIGA},
 	[SPECIES_URSHIFU_SINGLE_GIGA] =  {gFrontSpriteGigaUrshifuSingleTiles, (64 * 64) / 2, SPECIES_URSHIFU_SINGLE_GIGA},
 	[SPECIES_URSHIFU_RAPID_GIGA] =   {gFrontSpriteGigaUrshifuRapidTiles, (64 * 64) / 2, SPECIES_URSHIFU_RAPID_GIGA},
+	[SPECIES_GREAT_TUSK] =           {gFrontSpriteGreatTuskTiles, (64 * 64) / 2, SPECIES_GREAT_TUSK},
 };
